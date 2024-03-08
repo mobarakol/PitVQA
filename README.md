@@ -1,4 +1,6 @@
 # PitVQA
+## PitVQA Dataset
+The dataset will be released upon acceptance of the paper
 
 ## Training Command:
 ```
