@@ -2,5 +2,8 @@
 
 #Training Command:
 ```
-python main.py
+For EndoVis18-VQA dataset:
+    python main_endo.py
+For PitVQA dataset:
+    python main_pit.py
 ```
