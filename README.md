@@ -2,7 +2,7 @@
 ## PitVQA Dataset
 The dataset will be released upon acceptance of the paper
 <div align='center'>
-<img src='https://github.com/mobarakol/PitVQA/tree/main/assets/Dataset_Annaotation_Classes.png' width=550>
+<img src='https://github.com/mobarakol/PitVQA/blob/main/assets/Dataset_Annaotation_Classes.png' width=550>
 </div>
 
 ## Training Command:
