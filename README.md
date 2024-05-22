@@ -4,7 +4,7 @@
 <h2> PitVQA: Image-grounded Text Embedding LLM for Visual Question Answering in Pituitary Surgery </h1>
 </samp>     
 ---
-| **[[```arXiv```](<>)]** | **[[```Paper```](<>)]** | **[[```Demo```](<>)]**|
+| **[[```arXiv```](<www.arxiv.com>)]** | **[[```Paper```](<>)]** | **[[```Demo```](<>)]**|
 |:-------------------:|:-------------------:|:-------------------:|
     
 The International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024
