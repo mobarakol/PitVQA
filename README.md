@@ -25,7 +25,7 @@ If you use this code for your research, please cite our paper.
 @inproceedings{he2024pitvqa,
   title={PitVQA: Image-grounded Text Embedding LLM for Visual Question Answering in Pituitary Surgery},
   author={He, Runlong and Xu, Mengya and Das, Adrito and Z. Khan, Danyal and Bano, Sophia and J. Marcus, Hani and Stoyanov, Danail and J. Clarkson, Matthew and Islam, Mobarakol},
-  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI)},
   pages={},
   year={2024},
   organization={}
