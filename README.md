@@ -15,7 +15,7 @@ The International Conference on Medical Image Computing and Computer Assisted In
 ## PitVQA Net
 
 <div align='center'>
-<img src='https://github.com/mobarakol/PitVQA/blob/main/assets/model_archi_3.png' width=550>
+<img src='https://github.com/mobarakol/PitVQA/blob/main/assets/model_archi_3.png' width=650>
 </div>
 
 ## PitVQA Dataset
