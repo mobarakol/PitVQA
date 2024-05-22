@@ -1,4 +1,5 @@
-# PitVQA
+<h2> PitVQA: Image-grounded Text Embedding LLM for Visual Question Answering in Pituitary Surgery </h1>
+This repository consists the offici
 ## PitVQA Dataset
 The dataset will be released upon acceptance of the paper
 
