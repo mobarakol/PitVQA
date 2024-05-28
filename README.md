@@ -5,7 +5,7 @@
 </samp> 
 
 ---
-| **[[```arXiv```](<https://arxiv.org/>)]** | **[[```Paper```](<https://link.springer.com/>)]** | **[[```Demo```](<https://youtu.be>)]**|
+| **[[```arXiv```](<[https://arxiv.org/](https://arxiv.org/pdf/2405.13949)>)]** | **[[```Paper```](<https://link.springer.com/>)]** | **[[```Colab Demo```](<[https://youtu.be](https://github.com/mobarakol/PitVQA/blob/main/PitVQANet_endo18_demo.ipynb)>)]**|
 |:-------------------:|:-------------------:|:-------------------:|
     
 The International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2022
