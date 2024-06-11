@@ -8,7 +8,7 @@
 | **[[```arXiv```](<https://arxiv.org/pdf/2405.13949>)]** | **[[```Paper```](<https://link.springer.com/>)]** | **[[```Colab Demo```](<https://github.com/mobarakol/PitVQA/blob/main/PitVQANet_endo18_demo.ipynb>)]**|
 |:-------------------:|:-------------------:|:-------------------:|
     
-The International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2022
+The International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024
 ---
 
 </div> 
