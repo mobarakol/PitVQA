@@ -1,6 +1,5 @@
 import torch
 
-import numpy as np
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import average_precision_score
@@ -11,7 +10,6 @@ class AverageMeter(object):
     """
     Keeps track of most recent, average, sum, and count of a metric.
     """
-
     def __init__(self):
         self.reset()
 
@@ -73,7 +71,6 @@ def accuracy(scores, targets, k):
     :param k: k in top-k accuracy
     :return: top-k accuracy
     """
-
     batch_size = targets.size(0)
     _, ind = scores.topk(k, 1, True, True)
     correct = ind.eq(targets.view(-1, 1).expand_as(ind))
@@ -88,7 +85,6 @@ def adjust_learning_rate(optimizer, shrink_factor):
     :param optimizer: optimizer whose learning rate must be shrunk.
     :param shrink_factor: factor in interval (0, 1) to multiply learning rate with.
     """
-
     print("\nDECAYING learning rate.")
     for param_group in optimizer.param_groups:
         param_group['lr'] = param_group['lr'] * shrink_factor
@@ -120,9 +116,10 @@ def calc_classwise_acc(y_true, y_pred):
 
 
 def calc_map(y_true, y_scores):
-    mAP = average_precision_score(y_true, y_scores,average=None)
+    mAP = average_precision_score(y_true, y_scores, average=None)
     return mAP
 
+
 def calc_precision_recall_fscore(y_true, y_pred):
-    precision, recall, fscore, _ = precision_recall_fscore_support(y_true, y_pred, average='macro', zero_division = 1)
-    return(precision, recall, fscore)
+    precision, recall, fscore, _ = precision_recall_fscore_support(y_true, y_pred, average='macro', zero_division=1)
+    return (precision, recall, fscore)
