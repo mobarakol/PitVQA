@@ -34,12 +34,12 @@ Our PitVQA dataset comprises 25 videos of endoscopic pituitary surgeries from th
 ## Training Command:
 For EndoVis18-VQA dataset:
 ```
-python main_endo.py --batch_size 64
+python main.py --dataset=endo18 --epochs=60 --batch_size=64 --lr=0.00002
 ```
 
 For PitVQA dataset:
 ```
-python main_pit.py --batch_size 64
+python main.py --dataset=pit24 --epochs=60 --batch_size=64 --lr=0.00002
 ```
 ## Acknowledgement
 The implementation of PitVQA relies on resources from <a href="https://github.com/salesforce/BLIP">BLIP</a>, <a href="https://github.com/huggingface/transformers">Huggingface Transformers</a>, <a href="https://github.com/rwightman/pytorch-image-models/tree/master/timm">timm</a> and our previous work [SurgicalGPT](https://github.com/lalithjets/SurgicalGPT). We thank the original authors for their open-sourcing.
