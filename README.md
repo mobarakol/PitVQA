@@ -44,7 +44,7 @@ You can follow <a href="https://www.synapse.org/Synapse:syn51232283/wiki/621587"
 4. Preprocess the frames using the 'preprocess_images.py' file.
 
 Note: we ignored some frames (e.g. blurred frames) when we generated QA files. 
-For example, if you don't find the QA file '00001.txt' in the folder video_01, then the frame '00001.png' was ignored (not used) in the surgical VQA task.
+For example, if you don't find the QA file '00001.txt' in the folder video_01, then the frame '00001.png' was ignored (not used) in the surgical VQA task. Our dataloader is designed such way to ignore blurred frames.
 
 ## Training Command:
 For EndoVis18-VQA dataset:
