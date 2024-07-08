@@ -4,8 +4,8 @@ Paper: PitVQA: Image-grounded Text Embedding LLM for Visual Question Answering i
 Author: Runlong He, Mengya Xu, Adrito Das, Danyal Z. Khan, Sophia Bano, Hani J. Marcus, Danail Stoyanov, Matthew J. Clarkson, Mobarakol Islam
 Lab: Wellcome/EPSRC Centre for Interventional and Surgical Sciences (WEISS), UCL
 Acknowledgement : Code adopted from the official implementation of 
-                  Huggingface Transformers (https://github.com/huggingface/transformers) and
-                  Surgical-GPT (https://github.com/lalithjets/SurgicalGPT).
+                  Huggingface Transformers (https://github.com/huggingface/transformers)
+                  and Surgical-GPT (https://github.com/lalithjets/SurgicalGPT).
 '''
 
 import torch
