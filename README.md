@@ -31,6 +31,21 @@ Our PitVQA dataset comprises 25 videos of endoscopic pituitary surgeries from th
 <img src='https://github.com/mobarakol/PitVQA/blob/main/assets/Dataset_Annaotation_Classes.png' width=650>
 </div>
 
+# How to Download PitVQA Dataset
+Steps to obtain PitVQA-24 dataset:
+
+	1. Register PitVis challenge.
+	You can follow [https://www.synapse.org/Synapse:syn51232283/wiki/621587](https://www.synapse.org/Synapse:syn51232283/wiki/621587) to register the challenge.
+ 
+	2. Download 25 surgical videos.
+ 
+	3. Convert videos to frames using the 'video_to_images.py' file.
+ 
+	4. Preprocess the frames using the 'preprocess_images.py' file.
+ 
+	Note: we ignored some frames (e.g. blurred frames) when we generated QA files. 
+	For example, if you don't find the QA file '00001.txt' in the folder video_01, then the frame '00001.png' was ignored (not used) in the surgical VQA task.
+
 ## Training Command:
 For EndoVis18-VQA dataset:
 ```
