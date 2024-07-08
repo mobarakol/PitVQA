@@ -1,5 +1,5 @@
 '''
-Description: utils implementation of PitVQA-Net model
+Description: Utils implementation of PitVQA-Net model
 Paper: PitVQA: Image-grounded Text Embedding LLM for Visual Question Answering in Pituitary Surgery
 Author: Runlong He, Mengya Xu, Adrito Das, Danyal Z. Khan, Sophia Bano, 
         Hani J. Marcus, Danail Stoyanov, Matthew J. Clarkson, Mobarakol Islam
