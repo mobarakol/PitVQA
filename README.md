@@ -31,7 +31,7 @@ Our PitVQA dataset comprises 25 videos of endoscopic pituitary surgeries from th
 <img src='https://github.com/mobarakol/PitVQA/blob/main/assets/Dataset_Annaotation_Classes.png' width=650>
 </div>
 
-# How to Download PitVQA Dataset
+## How to Download PitVQA Dataset
 Steps to obtain PitVQA-24 dataset:
 
 	1. Register PitVis challenge.
