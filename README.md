@@ -35,7 +35,7 @@ Our PitVQA dataset comprises 25 videos of endoscopic pituitary surgeries from th
 Steps to obtain PitVQA-24 dataset:
 
 	1. Register PitVis challenge.
-	You can follow [https://www.synapse.org/Synapse:syn51232283/wiki/621587](https://www.synapse.org/Synapse:syn51232283/wiki/621587) to register the challenge.
+	You can follow <a href="https://www.synapse.org/Synapse:syn51232283/wiki/621587">PitVis Challenge</a> to register the challenge.
  
 	2. Download 25 surgical videos.
  
