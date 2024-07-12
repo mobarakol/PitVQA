@@ -43,6 +43,8 @@ You can follow <a href="https://www.synapse.org/Synapse:syn51232283/wiki/621587"
 
 4. Preprocess the frames using the 'preprocess_images.py' file.
 
+5. Download QA pairs from <a href="[https://www.synapse.org/Synapse:syn51232283/wiki/621587](https://drive.google.com/file/d/1POWMQZw28IpSGlmTmJRJccvt-mWlvkau/view?usp=drive_link)">Google drive</a>
+
 Note: we ignored some frames (e.g. blurred frames) when we generated QA files. 
 For example, if you don't find the QA file '00001.txt' in the folder video_01, then the frame '00001.png' was ignored (not used) in the surgical VQA task. Our dataloader is designed such way to ignore blurred frames.
 
