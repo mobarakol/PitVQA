@@ -9,6 +9,9 @@ Steps to reproduce PitVQA-24 dataset:
 	3. Convert videos to frames using the 'video_to_images.py' file.
  
 	4. Preprocess the frames using the 'preprocess_images.py' file.
+
+ 	5. Download QA pairs (38.7MB):
+  	https://drive.google.com/file/d/1POWMQZw28IpSGlmTmJRJccvt-mWlvkau/view?usp=drive_link
  
 	Note: we ignored some frames (e.g. blurred frames) when we generated QA files. 
 	For example, if you don't find the QA file '00001.txt' in the folder video_01, then the frame '00001.png' was ignored (not used) in the surgical VQA task.
