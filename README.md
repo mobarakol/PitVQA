@@ -32,20 +32,8 @@ Our PitVQA dataset comprises 25 videos of endoscopic pituitary surgeries from th
 </div>
 
 ## How to Download PitVQA Dataset
-Steps to obtain PitVQA-24 dataset:
+Please download full [PitVQA dataset](https://doi.org/10.5522/04/27004666) from UCL RDR portal. The original video was taken and preprocessed from [MICCAI PitVis challenge](https://rdr.ucl.ac.uk/articles/dataset/PitVis_Challenge_Endoscopic_Pituitary_Surgery_videos/26531686)
 
-1. Download 25 endoscopic pituitary surgery videos from <a href="https://rdr.ucl.ac.uk/articles/dataset/PitVis_Challenge_Endoscopic_Pituitary_Surgery_videos/26531686">UCL Research Data Repository</a>
-
-2. Convert videos to frames using the 'video_to_images.py' file.
-
-3. Preprocess the frames using the 'preprocess_images.py' file.
-
-    Note: The processed frames are available on <a href="https://rdr.ucl.ac.uk/articles/dataset/PitVQA_A_Dataset_of_Visual_Question_Answering_in_Pituitary_Surgery/27004666">UCL Research Data Repository</a> 
-
-4. Download QA pairs from <a href="https://drive.google.com/file/d/1POWMQZw28IpSGlmTmJRJccvt-mWlvkau/view?usp=sharing">Google drive</a>
-
-Note: we ignored some frames (e.g. blurred frames) when we generated QA files. 
-For example, if you don't find the QA file '00001.txt' in the folder video_01, then the frame '00001.png' was ignored (not used) in the surgical VQA task. Our dataloader is designed such way to ignore blurred frames.
 
 ## Training Command:
 For EndoVis18-VQA dataset:
