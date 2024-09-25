@@ -1,17 +1,2 @@
 # How to Download PitVQA Dataset
-Steps to reproduce PitVQA-24 dataset:
-
-	1. Register PitVis challenge.
-	You can follow https://www.synapse.org/Synapse:syn51232283/wiki/621587 to register the challenge.
- 
-	2. Download 25 surgical videos.
- 
-	3. Convert videos to frames using the 'video_to_images.py' file.
- 
-	4. Preprocess the frames using the 'preprocess_images.py' file.
-
- 	5. Download QA pairs (38.7MB):
-  	https://drive.google.com/file/d/1POWMQZw28IpSGlmTmJRJccvt-mWlvkau/view?usp=drive_link
- 
-	Note: we ignored some frames (e.g. blurred frames) when we generated QA files. 
-	For example, if you don't find the QA file '00001.txt' in the folder video_01, then the frame '00001.png' was ignored (not used) in the surgical VQA task.
+Please download full [PitVQA dataset](https://doi.org/10.5522/04/27004666) from UCL RDR portal. The original video was taken and preprocessed from [MICCAI PitVis challenge](https://rdr.ucl.ac.uk/articles/dataset/PitVis_Challenge_Endoscopic_Pituitary_Surgery_videos/26531686)
