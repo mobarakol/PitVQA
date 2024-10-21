@@ -34,6 +34,12 @@ Our PitVQA dataset comprises 25 videos of endoscopic pituitary surgeries from th
 ## How to Download PitVQA Dataset
 Please download full [PitVQA dataset](https://doi.org/10.5522/04/27004666) from UCL RDR portal. The original videos were taken and preprocessed from [MICCAI PitVis challenge](https://rdr.ucl.ac.uk/articles/dataset/PitVis_Challenge_Endoscopic_Pituitary_Surgery_videos/26531686)
 
+The dataset split for training and validation as below:<br>
+
+train_seq = [2, 3, 4, 6, 7, 9, 10, 11, 12, 14, 15]  
+
+val_seq = [1, 5, 16]
+
 
 ## Training Command:
 For EndoVis18-VQA dataset:
