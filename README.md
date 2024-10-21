@@ -36,9 +36,10 @@ Please download full [PitVQA dataset](https://doi.org/10.5522/04/27004666) from 
 
 The dataset split for training and validation as below:<br>
 
-train_seq = [2, 3, 4, 6, 7, 9, 10, 11, 12, 14, 15]  
-
-val_seq = [1, 5, 16]
+train_seq = ['01', '03', '04', '05', '07', '08', '09', '10', '11', '14',
+             '15', '16', '17', '18', '19', '20', '21', '22', '23', '25']
+                     
+val_seq = ['02', '06', '12', '13', '24']
 
 
 ## Training Command:
